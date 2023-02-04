@@ -1,0 +1,24 @@
+body {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+  }
+
+table, td {
+    border: 2px solid grey;
+    color: black;
+    border-collapse: separate;
+    font-size: larger;
+}
+
+img{
+    height: 60px;
+    width: 100px; 
+}
+.firstline {
+    text-align: center;
+}
+ul, li {
+    font-size: larger;
+}
