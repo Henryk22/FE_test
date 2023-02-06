@@ -1,0 +1,56 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* textarea {
+    /* resize: none; */
+    /* padding: 5px;
+}
+
+body {
+    padding-top: 30px;
+}
+
+form {
+        display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #00425A;
+    color: whitesmoke;
+}
+
+form>*:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+form input {
+    padding: 5px;
+} */ 
+.main {
+    background-image: url("../media/Rectangle.png");
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 122px;
+    padding-bottom: 140px;
+    color: white;
+}
+.main .contacts h1 {
+    font-size: 48px;
+
+}
+
+.main .contacts p {
+    font-size: 18px;
+}
+.message-form form input:focus-visible {
+    outline: none;
+    }
+    .message-form form textarea {
+        outline: none;
+    }
