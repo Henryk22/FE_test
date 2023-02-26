@@ -42,6 +42,12 @@ function power(a, b) {
 
 console.log(power(3, 2));
 
+// function power(a, 2) {
+//     return a ** 2;
+//   }
+  
+//   console.log(power(3, 2));
+
 // Напишите функцию, которая принимает числовой аргумент n и считает сумму чисел от 1 до n.
 
 function sumToN(n) {
@@ -66,7 +72,7 @@ function sumEvenOdd(n, m) {
   let sumEven = 0;
   let sumOdd = 0;
   for (let index = 0; index < arr.length; index++) {
-    if (arr[index] % 2 == 0) {
+    if (arr[index] % 2 === 0) {
       sumEven = sumEven + arr[index];
     } else {
       sumOdd = sumOdd + arr[index];
@@ -77,3 +83,7 @@ function sumEvenOdd(n, m) {
   console.log(" The sum of even numbers = " + sumEven);
   console.log(" The sum of odd numbers =  " + sumOdd);
 }
+
+console.log(sumEvenOdd(1, 5));
+
+
